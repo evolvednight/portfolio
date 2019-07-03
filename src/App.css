@@ -18,6 +18,41 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.navbar {
+  background-color: #20232a;
+  font-family: Helvetica;
+  font-size: large;
+}
+
+.a {
+  color: white;
+}
+
+.Nav Link {
+  margin: 1rem 1rem 1rem 1rem;
+
+}
+
+.navbarRight {
+  margin: 0;
+}
+
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; }
+a:focus { text-decoration: none; color:white; }
+a:hover, a:active { text-decoration: none; color:white }
+
+.btn {
+  text-decoration: none;
+  outline: none;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+
 
 .nav a {
   width: 10%;

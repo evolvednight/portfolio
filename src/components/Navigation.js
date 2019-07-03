@@ -6,7 +6,7 @@ import './Navigation.css';
 class Navigation extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect fixed="top" expand="lg" style={{display:'flex', flexDirection:'row', backgroundColor:'black'}}>
+            <Navbar collapseOnSelect fixed="top" expand="lg" style={{display:'flex', flexDirection:'row', textDecorationColor: 'white'}}>
                 <Navbar.Brand href="#profile">Edwin Hung</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -15,8 +15,8 @@ class Navigation extends Component {
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#skills">Skils</Nav.Link>
                 </Nav>
-                <Nav className="navbarRight" style={{margin: 0, top: 0, right: 30, bottom: 20, left: 'auto', position: 'fixed'}}>
-                <a href = {Pdf} target = "_blank">Resume Pdf</a>
+                <Nav className="navbarRight" style={{left: 'auto', position: 'fixed'}}>
+                <a href = {Pdf} target = "_blank">My Resume</a>
 
                 </Nav>
                 </Navbar.Collapse>

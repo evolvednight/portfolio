@@ -19,6 +19,17 @@
   color: white;
 }
 
+.nav a {
+  width: 10%;
+  padding: 10px;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: #d6d6d6;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +41,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbarLeft {
+  padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+.navbarRight {
+  padding: 1rem 1rem 1rem 1rem;
+
 }

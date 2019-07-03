@@ -13,7 +13,7 @@ class Navigation extends Component {
                 <Nav className="navbarLeft">
                         <Nav.Link href="#aboutme">About Me</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#skills">Skils</Nav.Link>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
                 </Nav>
                 <Nav className="navbarRight" style={{left: 'auto', position: 'fixed'}}>
                 <a href = {Pdf} target = "_blank">My Resume</a>

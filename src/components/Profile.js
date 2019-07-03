@@ -16,9 +16,9 @@ class Profile extends Component {
                 
                 
                 <div className="accessBtn">
-                    <Button><a href ="https://github.com/evolvednight">GitHub</a></Button>
-                    <Button><a href="https://www.linkedin.com/in/ehun">LinkedIn</a></Button>
-                    <Button><a href = {Pdf} target = "_blank">Resume</a></Button>
+                <a href ="https://github.com/evolvednight"><Button><i class="fa fa-github-square"></i>GitHub</Button></a>
+                <a href="https://www.linkedin.com/in/ehun"><Button><i class="fa fa-linkedin-square"></i>LinkedIn</Button></a>
+                <a href = {Pdf} target = "_blank"><Button><i class="far fa-address-card"></i>Resume</Button></a>
                 </div>
                 </Typing>
                 </div>

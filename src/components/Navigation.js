@@ -6,7 +6,7 @@ import './Navigation.css';
 class Navigation extends Component {
     render() {
         return (
-            <Navbar fixed="top" variant="dark" expand="lg" style={{display:"flex", flexDirection:"row"}}>
+            <Navbar fixed="top" expand="lg" style={{display:"flex", flexDirection:"row", backgroundColor:"grey"}}>
                 <Navbar.Brand href="#profile">Edwin Hung</Navbar.Brand>
 
                 <Nav className="navbar" style={{display:"flex", flexDirection:"row"}}>
@@ -14,7 +14,7 @@ class Navigation extends Component {
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#skills">Skils</Nav.Link>
                 </Nav>
-                <Nav>
+                <Nav style={{alignContent:"right"}}>
                 <a href = {Pdf} target = "_blank">Resume Pdf</a>
 
                 </Nav>

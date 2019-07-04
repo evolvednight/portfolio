@@ -16,6 +16,7 @@ function App() {
       <div className="App">
       <Profile />
       <Aboutme />
+      <Project />
       </div>
       <Footer />
       </Router>

@@ -19,7 +19,7 @@
   color: white;
 }
 .navbar {
-  background-color: #20232a;
+  background-color: #33353b;
   font-family: Helvetica;
   font-size: large;
 }
@@ -30,6 +30,10 @@
 
 .navbarRight {
   margin: 0;
+}
+
+.navl {
+  margin: 15px;
 }
 
 a:visited { text-decoration: none; color:white; }
@@ -47,7 +51,10 @@ a:hover, a:active { text-decoration: none; color:white }
   background-color: white;
 }
 
-
+#Footer {
+  color: white;
+  background-color: #33353b;
+}
 
 .nav a {
   width: 10%;
@@ -56,13 +63,17 @@ a:hover, a:active { text-decoration: none; color:white }
   color: white;
 }
 
-.navbar-default .navbar-brand {
+.navbar-brand {
   color: #d6d6d6;
+  margin: 0 15px;
+  padding: 10px;
+  font-size: 1.5rem;
+  left: 20;
+  top: 10;
+  right: auto;
+  bottom: 10;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {

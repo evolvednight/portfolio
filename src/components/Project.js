@@ -6,7 +6,7 @@ class Project extends Component {
     render() {
         return (
             <div id="profile">
-                <p>Projects</p>
+                <h1>Projects</h1>
             </div>
         );
     }

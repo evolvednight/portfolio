@@ -24,6 +24,27 @@
   font-size: large;
 }
 
+#profile {
+  height: 100vh;
+}
+
+
+#aboutme {
+  height: 100vh;
+  position: relative;
+  background-color: white;
+  left:0;
+  right:0;
+}
+
+#projects {
+  height: 100vh;
+}
+
+#skills {
+  height: 100vh;
+}
+
 .a {
   color: white;
 }

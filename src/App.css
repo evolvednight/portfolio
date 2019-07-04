@@ -28,14 +28,6 @@
   color: white;
 }
 
-.navbarRight {
-  margin: 0;
-}
-
-.navl {
-  margin: 15px;
-}
-
 a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:white; }
@@ -49,6 +41,7 @@ a:hover, a:active { text-decoration: none; color:white }
   border-radius: 10px;
   color: black;
   background-color: white;
+  font-size: .7em;
 }
 
 #Footer {

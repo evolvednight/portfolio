@@ -25,9 +25,8 @@
 }
 
 #profile {
-  height: 100vh;
+  height: 90vh;
 }
-
 
 #aboutme {
   height: 100vh;
@@ -35,20 +34,35 @@
   background-color: white;
   left:0;
   right:0;
+  text-align: left;
+  margin: 5%;
+  padding: .1rem 1rem .1rem 1rem;
 }
+
+
 
 #projects {
   height: 100vh;
+  margin: 5%;
+  padding: .1rem 1rem .1rem 1rem;
 }
 
 #skills {
   height: 100vh;
+  margin: 5%;
+  padding: .1rem 1rem .1rem 1rem;
+}
+
+.nav-link {
+  margin: 10;
+  padding: 10;
 }
 
 .a {
+  text-decoration: none;
   color: white;
+  margin: 10;
 }
-
 a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:white; }
@@ -70,13 +84,6 @@ a:hover, a:active { text-decoration: none; color:white }
   background-color: #33353b;
 }
 
-.nav a {
-  width: 10%;
-  padding: 10px;
-  border: 1px rgba(255, 255, 255, 0.5) solid;
-  color: white;
-}
-
 .navbar-brand {
   color: #d6d6d6;
   margin: 0 15px;
@@ -96,15 +103,4 @@ a:hover, a:active { text-decoration: none; color:white }
   to {
     transform: rotate(360deg);
   }
-}
-
-.navbarLeft {
-  padding: 1rem 1rem 1rem 1rem;
-
-}
-
-
-.navbarRight {
-  padding: 1rem 1rem 1rem 1rem;
-
 }

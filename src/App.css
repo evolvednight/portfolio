@@ -22,10 +22,17 @@
   background-color: #33353b;
   font-family: Helvetica;
   font-size: large;
+  text-decoration: none;
+  color: white;
+}
+
+.activeStyle {
+  color: white;
 }
 
 #profile {
   height: 90vh;
+  margin: 10%;
 }
 
 #aboutme {
@@ -36,26 +43,29 @@
   right:0;
   text-align: left;
   margin: 5%;
-  padding: .1rem 1rem .1rem 1rem;
+  padding: .5rem 1rem .5rem 1rem;
 }
 
+.head1 {
+  font-size: 2em;
+  font-family: Helvetica;
+}
 
+.head2 {
+  font-size: 2em;
+  font-family: Helvetica;
+}
 
 #projects {
   height: 100vh;
   margin: 5%;
-  padding: .1rem 1rem .1rem 1rem;
+  padding: .5rem 1rem .5rem 1rem;
 }
 
 #skills {
   height: 100vh;
   margin: 5%;
-  padding: .1rem 1rem .1rem 1rem;
-}
-
-.nav-link {
-  margin: 10;
-  padding: 10;
+  padding: .5rem 1rem .5rem 1rem;
 }
 
 .a {
@@ -63,6 +73,7 @@
   color: white;
   margin: 10;
 }
+
 a:visited { text-decoration: none; color:white; }
 a:hover { text-decoration: none; color:white; }
 a:focus { text-decoration: none; color:white; }
@@ -86,13 +97,8 @@ a:hover, a:active { text-decoration: none; color:white }
 
 .navbar-brand {
   color: #d6d6d6;
-  margin: 0 15px;
-  padding: 10px;
   font-size: 1.5rem;
-  left: 20;
-  top: 10;
   right: auto;
-  bottom: 10;
 }
 
 

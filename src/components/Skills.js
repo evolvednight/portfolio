@@ -8,7 +8,10 @@ class Skills extends Component {
         return (
             <div id="skills">
                 <h1>Skills</h1>
-                <p>React, Java, JavaScript, Restful API</p>
+                <p>React, Java, Python, JavaScript, Restful API</p>
+                <p>Yahoo Stock API, Google map API, AWS</p>
+                <p>Machine Learning, Computer Vision</p>
+
             </div>
         );
     }

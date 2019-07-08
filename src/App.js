@@ -13,8 +13,9 @@ function App() {
     return (
       <Router>
       
-      <Navigation />  {/*navigation bar component*/}
+        {/*navigation bar component*/}
       <div className="App">
+      <Navigation />
       <Profile />
       <Aboutme />
       <Project />

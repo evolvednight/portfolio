@@ -13,7 +13,7 @@ class Navigation extends Component {
                 <Navbar.Collapse id="navbar-collapse">
                     <Nav className="mr-auto">
                         <Nav.Link pullLeft href="#aboutme" style={{color: "white", justifyContent: "right"}}>About Me</Nav.Link>
-                        <Nav.Link pullLeft href="#projects" style={{color: "white"}}>Projects</Nav.Link>
+                        {/* <Nav.Link pullLeft href="#projects" style={{color: "white"}}>Projects</Nav.Link> */}
                         <Nav.Link pullLeft href="#skills" style={{color: "white"}}>Skills</Nav.Link>
                         <Nav.Link style={{margin: 0, right: 30, left: 'auto', position: "absolute"}}>
                         <a href = {Pdf} target = "_blank">My Resume</a></Nav.Link>

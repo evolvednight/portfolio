@@ -5,7 +5,7 @@ import Aboutme from "./components/Aboutme";
 import Profile from "./components/Profile";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 import './App.css';
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
       <Navigation />
       <Profile />
       <Aboutme />
-      <Project />
       <Skills />
       </div>
       <Footer />

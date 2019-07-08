@@ -52,7 +52,7 @@
 }
 
 .head2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Helvetica;
 }
 
@@ -66,6 +66,9 @@
   height: 100vh;
   margin: 5%;
   padding: .5rem 1rem .5rem 1rem;
+  background-color: #282c34;
+  text-align: left;
+  color:lightgrey;
 }
 
 .a {

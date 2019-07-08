@@ -15,8 +15,9 @@ class Navigation extends Component {
                         <Nav.Link pullLeft href="#aboutme" style={{color: "white", justifyContent: "right"}}>About Me</Nav.Link>
                         {/* <Nav.Link pullLeft href="#projects" style={{color: "white"}}>Projects</Nav.Link> */}
                         <Nav.Link pullLeft href="#skills" style={{color: "white"}}>Skills</Nav.Link>
-                        <Nav.Link style={{margin: 0, right: 30, left: 'auto', position: "absolute"}}>
-                        <a href = {Pdf} target = "_blank">My Resume</a></Nav.Link>
+                    </Nav>
+                    <Nav style={{color: "white", margin: 0, right: 30, left: 'auto', position: "relative"}}>
+                        <a href = {Pdf} target = "_blank">My Resume</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

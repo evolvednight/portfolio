@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <div id="Footer" variant="dark">
-                <p>Copyright 2019 Edwin Hung - Made with React, React-Bootstrap, and Love.  Contact me for more information</p> 
+                <p>Copyright 2019 Edwin Hung - Made with React, React-Bootstrap, and Love.  Deployed with AWS.  Contact me for more information</p> 
             </div>
         );
     }

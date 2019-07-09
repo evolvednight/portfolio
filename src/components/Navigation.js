@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Pdf from '../Documents/EdwinResume.pdf';
-
 import './Navigation.css';
 
 class Navigation extends Component {

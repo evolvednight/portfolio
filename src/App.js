@@ -19,6 +19,7 @@ function App() {
       <Profile />
       <Aboutme />
       <Skills />
+      {/* <Project /> */}
       </div>
       <Footer />
       </Router>

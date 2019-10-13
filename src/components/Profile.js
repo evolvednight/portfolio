@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 import Typing from 'react-typing-animation';
 import './Profile.css';
-import Pdf from '../Documents/EdwinResume.pdf';
+import Pdf from '../Documents/Edwin_Resume.pdf';
 
 class Profile extends Component {
     render() {

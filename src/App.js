@@ -19,7 +19,7 @@ function App() {
       <Profile />
       <Aboutme />
       <Skills />
-      {/* <Project /> */}
+      <Project />
       </div>
       <Footer />
       </Router>

@@ -4,6 +4,7 @@ import busPredictor from "../images/busPredictor.JPG";
 import safechecker from "../images/MTBsafeChecker.JPG";
 import enternalBlockchain from "../images/enternalBlockchain.JPG";
 import gimme from "../images/gimme.JPG";
+import sofiaResearch from "../images/sofiaResearch.JPG";
 import "./Project.css";
 
 class Project extends Component {
@@ -31,7 +32,7 @@ class Project extends Component {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="https://master.d27xuxjt06k94t.amplifyapp.com/" target="example" rel="noopener">
-                            <img className="img-fluid" src={greenlight} alt="me" width="225px" height="300px" />
+                            <img className="img-fluid" src={sofiaResearch} alt="me" width="225px" height="300px" />
                             <div className="portfolio-box-caption"></div>
                             <div className="project-category">Research Project for University at Buffalo Department of Psychology</div>
                             <div className="project-name">Sofia Research</div>

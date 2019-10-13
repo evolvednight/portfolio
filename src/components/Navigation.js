@@ -12,7 +12,7 @@ class Navigation extends Component {
                 <Navbar.Collapse id="navbar-collapse">
                     <Nav className="mr-auto">
                         <Nav.Link pullLeft href="#aboutme" style={{color: "white", justifyContent: "right"}}>About Me</Nav.Link>
-                        <Nav.Link pullLeft href="#projects" style={{color: "white"}}>Projects</Nav.Link>
+                        <Nav.Link pullLeft href="#portfolio" style={{color: "white"}}>Projects</Nav.Link>
                         <Nav.Link pullLeft href="#skills" style={{color: "white"}}>Skills</Nav.Link>
                     </Nav>
                     <Nav style={{color: "white", margin: 0, right: 30, left: 'auto', position: "relative"}}>

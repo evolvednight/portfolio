@@ -51,19 +51,15 @@ class Project extends Component {
                             <div className="portfolio-box-caption"></div>
                             <div className="project-category"> Second Place for UB Blockchain Thinklab Hackathon 2019</div>
                             <div className="project-name">SafeChecker</div>
-                        </a>
+                            </a>
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <a className="portfolio-box" href="https://github.com/Scravlon/UBHakNight_Spring2019" target="example" rel="noopener">
                             <img className="img-fluid" src={gimme} alt="me" width="225px" height="300px" />
-                            </a>
                             <div className="portfolio-box-caption"></div>
-                        </div>
-                        <div className="project-category">
-                            UB ACM Hack Night 2019
-                        </div>
-                        <div className="project-name">
-                            GimMe
+                            <div className="project-category">UB ACM Hack Night 2019</div>
+                            <div className="project-name">GimMe</div>
+                            </a>
                         </div>
                     </div>
                 </div>
